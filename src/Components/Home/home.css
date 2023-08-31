@@ -70,18 +70,6 @@
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
-/* @keyframes profile__animate {
-  0% {
-    border-radius: 59% 39% 29% 69%/59% 29% 69% 39%;
-  }
-  50% {
-    border-radius: 29% 59% 69% 39%/49% 59% 29% 59%;
-  }
-  100% {
-    border-radius: 59% 39% 29% 69%/59% 29% 69% 39%;
-  }
-} */
-
 @keyframes profile__animate {
   0% {
     border-radius: 29% 59% 69% 39%/49% 59% 29% 59%;

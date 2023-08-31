@@ -48,6 +48,10 @@
   color: var(--title-color-dark);
 }
 
+.nav__logo {
+  width: 150px;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -106,6 +110,10 @@
   .nav__close,
   .nav__toggle {
     display: block;
+  }
+
+  .nav__logo {
+    width: 100px;
   }
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+// import logo from "../../assets/DarkLogo.png";
 
 const Header = () => {
   /*=============== Toggle Menu ===============*/
@@ -9,6 +10,8 @@ const Header = () => {
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Harshil
+          {/* LOGO */}
+          {/* <img className="nav__logo" src={logo} alt="Dark-Logo"></img> */}
         </a>
         {/* =========================NAV MENU========================= */}
 
