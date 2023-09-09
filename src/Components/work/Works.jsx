@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import { useState } from "react";
+import { motion } from "framer-motion";
 import WorksItems from "./WorksItems";
 const Works = () => {
   const [item, setItem] = useState({ name: "all" });
@@ -27,15 +28,26 @@ const Works = () => {
       <div className="work__filters">
         {projectsNav.map((item, index) => {
           return (
-            <span
+            <button
               onClick={(e) => {
                 clickHandler(e, index);
               }}
-              className={`${active === index ? "active-work" : ""} work__item`}
+              className={`${
+                active === index ? "active-work" : ""
+              } relative work__item`}
               key={index}
             >
-              {item.name}
-            </span>
+              {active === index && (
+                <motion.div
+                  layoutId="activePill"
+                  className="testing absolute inset-0"
+                  transition={{ type: "spring", duration: 1 }}
+                />
+              )}
+              <span className="relative z-10 mix-blend-exclusion">
+                {item.name}
+              </span>
+            </button>
           );
         })}
       </div>

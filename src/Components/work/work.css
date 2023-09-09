@@ -7,18 +7,29 @@
 }
 
 .work__item {
-  color: var(--title-color);
+  color: var(--text-color);
   padding: 0.25rem 0.75rem;
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
   cursor: pointer;
+  position: relative;
 }
 
-.work__item:hover {
+.testing {
   background-color: var(--title-color);
+  border-radius: 0.5rem;
+}
+/* active works */
+
+.active-work {
+  /* background-color: var(--title-color); */
   color: var(--container-color);
 }
+/* .work__item:hover {
+  background-color: var(--title-color);
+  color: var(--container-color);
+} */
 
 .work__container {
   grid-template-columns: repeat(2, max-content);
@@ -59,13 +70,6 @@
 
 .work__button-icon:hover {
   transform: translateX(0.25rem);
-}
-
-/* active works */
-
-.active-work {
-  background-color: var(--title-color);
-  color: var(--container-color);
 }
 
 /*=============== BREAKPOINTS ===============*/
