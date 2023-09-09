@@ -46,10 +46,19 @@
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
+  /* background-color: #dedede; */
+  /* box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.2); */
+  /* border-radius: 0.25rem; */
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
 }
 
 .nav__logo {
   width: 150px;
+}
+/* change bg  */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*=============== BREAKPOINTS ===============*/
