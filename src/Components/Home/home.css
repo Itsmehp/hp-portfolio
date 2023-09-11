@@ -32,7 +32,7 @@
 .home__hand {
   width: 36px;
   height: 36px;
-  margin-left: 0.08rem;
+  vertical-align: bottom;
 }
 
 .home__subtitle {

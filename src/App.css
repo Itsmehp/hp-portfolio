@@ -75,7 +75,7 @@ html {
 }
 
 body,
-button,
+buttons,
 input,
 textarea {
   font-family: var(--body-font);
@@ -102,7 +102,7 @@ a {
   text-decoration: none;
 }
 
-button {
+buttons {
   cursor: pointer;
   border: none;
   outline: none;
@@ -135,19 +135,19 @@ img {
 }
 
 /*=============== LAYOUT ===============*/
-.container {
+.containers {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.grid {
+.grids {
   display: grid;
   gap: 1.5rem;
 }
 
 /*=============== BUTTONS ===============*/
-.button {
+.buttons {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
@@ -156,7 +156,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.button:hover {
+.buttons:hover {
   background-color: var(--title-color-dark);
 }
 
@@ -164,7 +164,7 @@ img {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex {
+.button__flex {
   display: inline-flex;
   align-items: center;
 }
@@ -172,12 +172,12 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .container {
+  .containers {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
 
-  .button {
+  .buttons {
     padding: 1rem 1.75rem;
   }
 
@@ -211,7 +211,7 @@ img {
     --big-font-size: 2.25rem;
   }
 
-  .container {
+  .containers {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }

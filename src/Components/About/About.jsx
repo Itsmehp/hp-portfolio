@@ -10,7 +10,7 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
 
-      <div className="about__container container grid">
+      <div className="about__container containers grids">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
           <Info />
@@ -20,7 +20,7 @@ const About = () => {
             React which includes A CRUD application.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="buttons button__flex">
             Download CV
             <svg
               class="button__icon"

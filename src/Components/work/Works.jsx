@@ -52,7 +52,7 @@ const Works = () => {
         })}
       </div>
 
-      <div className="work__container container grid">
+      <div className="work__container containers grids">
         {" "}
         {projects.map((item) => {
           return <WorksItems item={item} key={item.id} />;
