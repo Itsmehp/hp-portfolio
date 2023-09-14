@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: 4,
     image: Work4,
-    title: "App movil",
+    title: "Add Username Project",
     category: "Applications",
     link: "https://genuine-maamoul-868ac3.netlify.app/",
   },
