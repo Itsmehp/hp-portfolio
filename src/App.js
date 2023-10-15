@@ -15,7 +15,7 @@ import PreLoader from "./Components/preloader/Preloader";
 function App() {
   return (
     <>
-      <PreLoader />
+      {/* <PreLoader /> */}
       <>
         <Header />
         <main className="main">
