@@ -1,39 +1,52 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
+import Work1 from "../../assets/work1.png";
+import Work2 from "../../assets/work2.png";
+import Work3 from "../../assets/work3.png";
+import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.jpg";
+import Work6 from "../../assets/work6.png";
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
+    title: "Investment Calculator",
     category: "Web",
+    link: "https://inquisitive-sunflower-692c4c.netlify.app/",
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "Applications",
+    title: "Expense Calculator",
+    category: "Web",
+    link: "https://guileless-concha-eae2cc.netlify.app/",
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "Design",
+    title: "Course Goal Project",
+    category: "Applications",
+    link: "https://bright-concha-588c4c.netlify.app",
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
+    title: "Add Username Project",
     category: "Applications",
+    link: "https://genuine-maamoul-868ac3.netlify.app/",
   },
   {
     id: 5,
     image: Work5,
-    title: "Web design",
-    category: "Web",
+    title: "Personal Portfolio",
+    category: "Design",
+    link: "https://stalwart-meringue-aa0348.netlify.app/",
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "React Food App",
+    category: "Design",
+    link: "https://dulcet-travesseiro-77ab7a.netlify.app/",
   },
 ];
 
