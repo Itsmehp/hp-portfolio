@@ -4,6 +4,8 @@ import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.jpg";
 import Work6 from "../../assets/work6.png";
+import Work7 from "../../assets/work7.png";
+import Work8 from "../../assets/work8.png";
 
 export const projectsData = [
   {
@@ -38,15 +40,29 @@ export const projectsData = [
     id: 5,
     image: Work5,
     title: "Personal Portfolio",
-    category: "Design",
+    category: "Applications",
     link: "https://stalwart-meringue-aa0348.netlify.app/",
   },
   {
     id: 6,
     image: Work6,
     title: "React Food App",
-    category: "Design",
+    category: "Applications",
     link: "https://dulcet-travesseiro-77ab7a.netlify.app/",
+  },
+  {
+    id: 7,
+    image: Work8,
+    title: "Business Website",
+    category: "Web",
+    link: "https://mamtapolyfilms.com",
+  },
+  {
+    id: 8,
+    image: Work7,
+    title: "Business Website",
+    category: "Web",
+    link: "https://meruengineers.com",
   },
 ];
 

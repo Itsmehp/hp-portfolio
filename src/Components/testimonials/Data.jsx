@@ -8,7 +8,7 @@ export const Data = [
     image: Image1,
     title: "Jhon Doe",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
+      "Great work! Every detail of the project was handled carefully, resulting in a polished and professional website.",
   },
   {
     id: 2,
@@ -22,6 +22,6 @@ export const Data = [
     image: Image3,
     title: "Sara Cill",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
+      "A well-executed project—each step was followed meticulously, delivering a smooth and efficient web application.",
   },
 ];
