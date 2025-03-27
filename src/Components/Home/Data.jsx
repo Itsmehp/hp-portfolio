@@ -55,9 +55,9 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm a full-stack web developer based in Vadodara, and I am very
+        I'm a full-stack web developer based in Germany, and I am very
         passionate and dedicated towards building and deploying amazing
-        websites.
+        websites. Currently doing Masters in AI and Robotics at Hochschule Hof.
       </p>
       <a href="#contact" className="button button--flex">
         Contact Me!
