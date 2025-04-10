@@ -8,7 +8,7 @@
 }
 
 .footer__title,
-.footer__link {
+.foother__link {
   color: var(--title-color);
 }
 
@@ -17,8 +17,9 @@
   margin-bottom: var(--mb-2);
 }
 
-.footer__link:hover {
+.foother__link:hover {
   color: var(--title-color-dark);
+  cursor: pointer;
 }
 
 .footer__list {

@@ -1,50 +1,63 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./footer.css";
 
 const Footer = () => {
+  // Common props for Link components
+  const scrollLinkProps = {
+    spy: false,
+    smooth: true,
+    offset: -80, // Adjust based on your header height
+    duration: 500
+  };
+
   return (
     <footer className="footer">
       <div className="footer__container container">
         <h1 className="footer__title">Harshil Patel</h1>
         <ul className="footer__list">
           <li>
-            <a href="#about" className="foother__link">
+            <Link to="about" className="foother__link" {...scrollLinkProps}>
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#portfolio" className="foother__link">
+            <Link to="portfolio" className="foother__link" {...scrollLinkProps}>
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#testimonial" className="foother__link">
+            <Link to="testimonial" className="foother__link" {...scrollLinkProps}>
               Testimonials
-            </a>
+            </Link>
           </li>
         </ul>
-
         <div className="footer__social">
           <a
             href="https://www.instagram.com/hey.its.hp/"
             className="footer__social-link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <i class="bx bxl-instagram"></i>
+            <i className="bx bxl-instagram"></i>
           </a>
           <a
             href="https://twitter.com/ItsHpLOL"
             className="footer__social-link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <i class="bx bxl-twitter"></i>
+            <i className="bx bxl-twitter"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/harshil-patel-027715211/"
             className="footer__social-link"
+            target="_blank"
+            rel="noreferrer"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
         </div>
-
         <span className="footer__copy">
           &#169; Harshil Patel, All rights reserved
         </span>
