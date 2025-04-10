@@ -54,14 +54,14 @@ export const projectsData = [
     id: 7,
     image: Work8,
     title: "Business Website",
-    category: "Web",
+    category: "Design",
     link: "https://mamtapolyfilms.com",
   },
   {
     id: 8,
     image: Work7,
     title: "Business Website",
-    category: "Web",
+    category: "Design",
     link: "https://meruengineers.com",
   },
 ];

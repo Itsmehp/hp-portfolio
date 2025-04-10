@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about3.jpg";
-import CV from "../../assets/hp-cv.pdf";
 import Info from "./Info";
+import DownloadButtons from "./DownloadButtons";
 
 const About = () => {
   return (
@@ -16,11 +16,11 @@ const About = () => {
           <Info />
           <p className="about__description">
             Front-end developer, I create web pages with UI / UX features and
-            interface, I have currently worked on a few ready to deply apps in
-            React which includes A CRUD application.
+            interface, I have currently worked on a few ready to deploy apps in
+            React which includes A CRUD application. I've also created websites for local businesses which helped them increase their reach.
           </p>
-
-          <a download="" href={CV} className="button button--flex">
+          <DownloadButtons />
+          {/* <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               class="button__icon"
@@ -47,7 +47,8 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
+          
         </div>
       </div>
     </section>
