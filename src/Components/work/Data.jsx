@@ -41,7 +41,7 @@ export const projectsData = [
     image: Work5,
     title: "Personal Portfolio",
     category: "Applications",
-    link: "https://stalwart-meringue-aa0348.netlify.app/",
+    link: "https://www.harshil07.in",
   },
   {
     id: 6,
